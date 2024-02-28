@@ -4,7 +4,7 @@ import UserInfo from "./components/UserInfo";
 const App = () => {
   return (
     <>
-      <h1>This is the entry point to the React App.</h1>
+      <h1>This is the entry point to the React App. TEST </h1>
       <UserInfo />
     </>
   );
