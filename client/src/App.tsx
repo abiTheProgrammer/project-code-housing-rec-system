@@ -1,5 +1,6 @@
 import "./App.css";
 import UserInfo from "./components/UserInfo";
+import "bootstrap/dist/css/bootstrap.css";
 
 const App = () => {
   return (
