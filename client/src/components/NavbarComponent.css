@@ -1,0 +1,20 @@
+.custom-navbar {
+    background-color: #ff0000; /* Set background color */
+    color: #854646; /* Set text color */
+}
+
+.nav-link {
+    color: #ffffff !important; /* Override Bootstrap's default link color */
+    font-size:25px; /* Set font size */
+}
+
+.nav-link:hover {
+    color: #ffc107 !important; /* Change color on hover */
+}
+
+.nav-link-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100%; /* Ensure the container takes up full height */
+}

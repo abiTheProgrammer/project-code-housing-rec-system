@@ -1,10 +1,13 @@
 import "./App.css";
 import UserInfo from "./components/UserInfo";
+import Login from "./components/Login";
+import NavbarComponent from "./components/NavbarComponent";
 
 const App = () => {
   return (
     <>
-      <h1>This is the entry point to the React App. TEST </h1>
+      <NavbarComponent></NavbarComponent>
+      <Login />
       <UserInfo />
     </>
   );
